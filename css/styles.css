@@ -1,0 +1,202 @@
+:root {
+    --primery-text-color:#434455;
+    --title-text-color:#2e2f42;
+    --accent-color:#4D5AE5;
+    --primery-background-color:#FFFFFF;
+    --secondary-background-color: #F4F4FD;
+    --pressed-state-color:#404BBF;
+}
+
+body {
+font-family: 'Roboto', sans-serif;  
+color: var(--primery-text-color);
+background-color:var(--primery-background-color);
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/*.............................Хедер.......................  */
+.header {
+}
+.header-navigation {
+}
+
+/* Лого */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+.header-logo {
+    color: var(--title-text-color);
+}
+.header-logo:hover, .header-logo:focus {
+    color: var(--accent-color);
+}
+/* Навигация */
+.header-list {
+}
+.header-item {
+}
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+.header-link:hover, .header-link:focus {
+    color: var(--pressed-state-color);
+}
+/* Контакты */
+.address-contacts {
+    font-style: normal;
+}
+.contacts {
+}
+.contacts-item {
+}
+.contacts-mail-phone {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+}
+.contacts-mail-phone:hover, 
+.contacts-mail-phone:focus {
+    color: var(--pressed-state-color);
+}
+
+
+/* ..............................Главний контент................................... */
+
+/* HERO */
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--pressed-state-color);
+}
+ /* SECTIONS */
+.section {
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+}
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.section-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--primery-text-color);
+}
+.team-section {
+    background-color: var(--secondary-background-color);
+}
+
+.team-item {
+    background-color: var(--primery-background-color);
+}
+
+
+
+.our-works {
+}
+.focus {
+}
+.focus-item {
+}
+/* Фокус КНОПКИ */
+.focus-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+cursor: pointer;
+background-color: var(--secondary-background-color);
+}
+.focus-btn:hover, .focus-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--pressed-state-color);
+}
+
+/* Список работ */
+.work-examples {
+}
+.examples-item {
+}
+.examples-link {
+
+}
+
+
+
+
+/* ..................................Подвал............................ */
+.footer {
+    background-color:#2e2f42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+.footer-logo:hover, .footer-logo:focus {
+    color: var(--accent-color); 
+}
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
