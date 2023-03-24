@@ -298,7 +298,7 @@ border: 1px solid #E7E9FC
 
 /* ..................................Подвал............................ */
 .footer {
-    background-color:tomato;
+    background-color:#2e2f42;
 }
 
 .footer-logo {
@@ -315,4 +315,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+width: 264px;
+}
+
+.footer-container {
+
 }
