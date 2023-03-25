@@ -18,6 +18,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -126,10 +129,13 @@ color: var(--title-text-color);
     margin-left: 40px;
 }
 .contacts-mail-phone {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primery-text-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+        
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
 }
 .contacts-mail-phone:hover, 
 .contacts-mail-phone:focus {
@@ -141,13 +147,17 @@ color: var(--primery-text-color);
 
 
 /* .................HERO................ */
-.hero {
+.hero-section {
     background-color: #2E2F42;
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
-    margin-top: 0;
     margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 496px;
 
     font-style: normal;
     font-weight: 700;
@@ -180,8 +190,7 @@ color: var(--primery-text-color);
     background-color: var(--pressed-state-color);
 }
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
 }
 
 
@@ -192,7 +201,6 @@ color: var(--primery-text-color);
     padding-bottom: 120px;
 }
 .section-title {
-    margin-top: 0;
     margin-bottom: 72px ;
 
     font-weight: 700;
@@ -204,7 +212,6 @@ color: var(--primery-text-color);
     color: var(--title-text-color);
 }
 .section-subtitle {
-    margin-top: 0;
     margin-bottom: 8px;
 
     font-weight: 500;
@@ -241,11 +248,11 @@ color: var(--primery-text-color);
     flex-basis: calc((100%-3*24)/4);
     background-color: var(--primery-background-color);
     text-align: center;
+    
 }
 
 .team-item-container {
-    padding: 32px 16px;
-
+ padding: 32px 16px;
 }
 
 
@@ -307,6 +314,8 @@ color: var(--primery-text-color);
 /* ..................................Подвал............................ */
 .footer {
     background-color:#2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -320,6 +329,7 @@ color: var(--primery-text-color);
 .footer-text {
     margin-top: 16px;
     margin-bottom: 0;
+    width: 264px;
 
     font-size: 16px;
     line-height: 1.5;
@@ -328,7 +338,5 @@ color: var(--primery-text-color);
 }
 
 .footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 264px;
+    
 }
